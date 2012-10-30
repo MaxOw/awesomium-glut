@@ -1,0 +1,16 @@
+
+name:                awesomium-glut
+version:             0.1.0.0
+synopsis:            Utilities for using Awesomium with GLUT.
+license:             LGPL-3
+license-file:        LICENSE
+author:              Maksymilian Owsianny
+maintainer:          Maksymilian.Owsianny+AwesomiumGLUT@gmail.com
+category:            Graphics
+build-type:          Simple
+cabal-version:       >=1.8
+
+library
+    exposed-modules: Graphics.UI.Awesomium.GLUT
+    build-depends  : awesomium, base ==4.5.*
+    hs-source-dirs : src
